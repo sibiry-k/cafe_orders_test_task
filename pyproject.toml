@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cafe-orders-test-task"
+version = "0.1.0"
+description = "Тестовое задание на позицию Junior Backend Python Developer"
+authors = ["Anton Ivanov <sibiry-k@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "cafe_orders_test_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.18"
+ruff = "^0.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
